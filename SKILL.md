@@ -6,6 +6,11 @@ name: dy-feedback
 description: 抖音用户反馈洞察数据源（只读）：关键词搜索、博主作品、作品详情、评论、热榜。触发：抖音搜索、热搜、评论、需求挖掘、痛点、作品详情、博主作品、对标账号、播放量、选题、舆情、竞品。小红书、快手、B站、微博、公众号不要用本技能。sec_uid、aweme_id、douyin search、douyin hot、douyin detail、douyin comments。
 license: MIT
 version: 1.5.1
+display_name: "抖音用户反馈洞察｜高赞评论·需求提取·评论FAQ·改进线索"
+display_name_en: "Douyin Feedback"
+description_zh: "抖音用户反馈洞察数据源（只读）：关键词搜索视频与图文、用户/达人搜索、博主作品、单条作品详情、视频图文评论、实时热榜，输出结构化 JSON 供 AI 做评论区需求挖掘与反馈聚类。支持综合/最多点赞/最新排序与时间（1 天/7 天/半年）、时长、内容类型多维度筛选，可选 --save 落盘便于二次分析。内置需求挖掘与公域获客剧本（search→comment），从高赞评论提取真实需求、痛点与高频问题，整理评论区 FAQ 与改进线索。不登录、不发布、不点赞、不评论。按量单次最多 10000 条；包月视频/用户搜索与作品最多 30、评论最多 50，详情与热榜无条数限制，超限返回 PLAN_LIMIT。适用于用户反馈聚类、评论区需求提取、痛点分析、产品改进线索、客服 FAQ 沉淀、竞品评论洞察。触发词：抖音用户反馈、抖音评论需求挖掘、高赞评论分析、douyin feedback、douyin comment insights。"
+description_en: "Read-only Douyin feedback-insight data source: keyword search for videos and image-text posts, user/creator search, creator video lists, single-video details, comments, and the real-time hot list, all as structured JSON for AI-driven comment mining and feedback clustering. Supports relevance/most-liked/latest sorting plus time-window, duration and content-type filters; optional --save keeps local copies. Built-in demand-mining and customer-acquisition playbooks (search-to-comment) extract real needs, pain points and recurring questions from high-like comments, and organize comment FAQs and improvement clues. No login, publishing, liking, or commenting. Pay-per-use runs cap at 10,000 items; monthly plans cap video/user search and creator videos at 30 and comments at 50 (details and hot list uncapped), returning PLAN_LIMIT when exceeded. Ideal for feedback clustering, requirement extraction, pain-point analysis, improvement clues, support-FAQ drafting, and competitor comment research."
+author: "新郑市怪奇信息技术工作室"
 metadata:
   openclaw:
     emoji: "🎬"
